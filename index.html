@@ -1,0 +1,406 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Angular Assignment</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+ 
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="main-content">
+        <!-- Start Header -->
+        <header class="ax-header haeder-default light-logo-version header-transparent axil-header-sticky">
+            <div class="header-wrapper">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-8 header-left">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="assets/images/logo.png" alt="logo">
+
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-6 col-sm-6 col-4 header-right">
+                            <div class="mainmenu-wrapepr">
+                                <!-- Start Mainmanu Nav -->
+                                <nav class="mainmenu-nav d-none d-lg-block">
+                                    <ul class="mainmenu">
+                                        <li class=""><a href="#">Products</a></li>
+                                        <li class=""><a href="#">Solutions</a></li>
+                                        <li class=""><a href="#">Pricing</a></li></li>
+                                        <li class="login"><a href="#">Login</a></li>
+                                        <li class="register"><a href="#">Get Started</a></li>
+
+                                    </ul>
+                                </nav>
+                                <!-- End Mainmanu Nav -->
+                                <div class="axil-header-extra d-flex align-items-center">
+                                    <!-- Start Menu Bar  -->
+                                    <div class="ax-menubar popup-navigation-activation d-block d-lg-none ml_sm--20 ml_md--20">
+                                        <div>
+                                            <i></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Start Header -->
+
+        <!-- Start Popup Mobile Menu -->
+        <div class="popup-mobile-manu">
+            <div class="inner">
+                <div class="mobileheader">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="assets/images/logo.png" alt="Logo images">
+                        </a>
+                    </div>
+                    <a class="close-menu" href="#"></a>
+                </div>
+                <div class="menu-item">
+                	<ul class="mainmenu-item">
+						<li class=""><a href="#">Products</a></li>
+						<li class=""><a href="#">Solutions</a></li>
+		                <li class=""><a href="#">Pricing</a></li></li>
+						<li class="login"><a href="#">Login</a></li>
+						<li class="register"><a href="#">Get Started</a></li>
+                    </ul>
+                    
+                </div>
+
+            </div>
+        </div>
+        <!-- End Popup Mobile Menu -->
+
+        <!-- Start Sidebar Area  -->
+        <div class="side-nav">
+            <div class="side-nav-inner">
+                <!-- Start Search Bar  -->
+                <form action="#" class="side-nav-search-form">
+                    <div class="form-group search-field">
+                        <input type="text" class="search-field" name="search-field" placeholder="Search...">
+                        <button class="side-nav-search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                </form>
+                <!-- End Search Bar  -->
+
+                <!-- End of .side-nav-inner -->
+                <div class="close-sidenav" id="close-sidenav">
+                    <button class="close-button"><i class="fal fa-times"></i></button>
+                </div>
+            </div>
+        </div>
+        <!-- End Sidebar Area  -->
+        <!-- Start Page Wrapper -->
+        <main class="page-wrapper">
+
+            <!-- Start Slider Area -->
+            <div class="axil-slider-area axil-slide-activation">
+                <!-- Start Single Slide -->
+                <div class="axil-slide slide-style-default theme-gradient slider-fixed-height d-flex align-items-center paralax-area">
+                    <div class="container">
+                        <div class="row align-items-center pt_md--60 mt_sm--60">
+                            <div class="col-lg-7 col-12">
+                                <div class="content pt_md--30">
+                                    <h1 class="axil-display-1 wow slideFadeInUp" data-wow-duration="1s" data-wow-delay="500ms">We make it Super Simple</h1>
+                                    <div class="border-line"></div>
+                                    <img src="assets/images/vector-art-1.png" class="slider-img">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-5 col-12">
+                                <div class="topskew-thumbnail-group text-left text-lg-right">
+								<!-------Start------->
+									<div id="calculator" class="popup-sec">
+									  <div class="">
+										<section class="section-padding">
+											<div class="container">
+												<div class="row">
+													<div class="col-md-8 loan-slider-box">
+														<div class="header">
+															<p>Eligibility Calculaor</p>
+														</div>
+														<div class="single-loan-slider">
+															<h4>Monthly Income</h4>
+															<div class="sub-line">
+																<span>₹</span>
+																<h6 id="pricipal"></h6>
+															</div>
+															<div id="pricipal-slide"></div>
+															<div class="min-max-details">
+																<span class="left">₹ 1,00,000</span>
+																<span class="right">₹ 3,00,000</span>
+															</div>
+														</div>
+														<div class="single-loan-slider">
+															<h4>Monthly Expense</h4>
+															<div class="sub-line">
+																<span>₹</span>
+																<h6 id="intrest"></h6>
+																
+															</div>
+															<div id="intrest-slide"></div>
+															
+														</div>
+														<div class="single-loan-slider">
+															<h4>Repayment Tenure</h4>
+															<div class="sub-line">
+																<h6 id="totalyear"></h6>
+																<span>Months</span>
+															</div>
+															<div id="totalyear-slide"></div>
+														</div>
+														<div class="single-loan-slider">
+															<h4>Do you have any existing loans? 
+															<label class="switch">
+															  	<input type="checkbox" checked>
+																<span class="slider round"></span>
+															</label>
+															</h4>
+															<div class="sub-line">
+																
+															</div>
+														</div>
+														<div class="single-loan-slider">
+															<h4>EMI of existing loan (optional)</h4>
+															<div class="sub-line">
+																<input type="text" placeholder="₹15000">
+															</div>
+														</div>
+														
+													</div>
+													<div class="col-md-4 text-center">
+														<!--<h2 class="result-head">Your Result</h2>-->
+														<div class="total-calculation">
+															<div class="single-total">
+																<h5>Loan Amount</h5>
+																<h2 class="invest-price" id="invest">0</h2>
+															</div>
+															<div class="single-total">
+																<h5>Your EMI will be</h5>
+																<h2 id="tbl_invest">0</h2>
+															</div>
+															<div class="single-total">
+																<button class="botton3">GET MONEY</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</section>
+									  </div>
+									</div>
+
+									<!-------End------->
+                                    <div class="shape-group">
+                                        <div class="shape shape-1 paralax--1">
+                                        <img src="assets/images/circle2.svg">
+                                        </div>
+                                        <div class="shape shape-2 customOne">
+                                        	<img src="assets/images/dots2.svg">                                        
+                                        </div>
+                                        <div class="shape shape-3 paralax--3">
+                                        	<img src="assets/images/circle1.svg">
+                                        </div>
+                                        <div class="shape shape-4 customOne">
+                                        	<img src="assets/images/dots2.svg">                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Slide -->
+            </div>
+            <!-- End Slider Area -->
+
+            <!-- Start Service Area -->
+            <div class="service-section">
+                <div class="container">
+                   <div class="row">
+                   		<div class="col-lg-6">
+                   			<div class="services">
+                   				<div class="line-1">
+                   					<ul class="service">
+                   						<li>
+                   							<div>
+												<img src="assets/images/s1.png" class="service-img">
+												<p class="ser-heading">Quick cash disbursement</p>
+												<p class="ser-description">Get terms loans that your business needs within 72 hrs</p>
+                   							</div>
+                   						</li>
+                   						<li>
+	                   						<div>
+												<img src="assets/images/s2.png" class="service-img">
+												<p class="ser-heading">Low-interest rate</p>
+												<p class="ser-description">Achieve your financial goals with an amazing interest rate starting at 13% per annum</p>
+                  							</div>
+                   						</li>
+                   						<li>
+                   							<div>
+												<img src="assets/images/s3.png" class="service-img">
+												<p class="ser-heading">Zero Paperwork</p>
+												<p class="ser-description">Get started instantly by submitting only your basic details & bank statements</p>
+                  							</div>
+                   						</li>
+                   					</ul>
+                   				</div>
+                   				<div class="line-2">
+                   					<ul class="service">
+                   						<li>
+                   						 <div>
+												<img src="assets/images/s4.png" class="service-img">
+												<p class="ser-heading">Ace your business finances</p>
+												<p class="ser-description">Manage banking, accounting & everything in between, on one platform</p>
+                  							</div>
+                   						</li>
+                   						<li>
+                   							<div>
+												<img src="assets/images/s5.png" class="service-img">
+												<p class="ser-heading">Loans to fight COVID-19</p>
+												<p class="ser-description">Zero EMI for first 3 months on Back-to-Business loans of upto 1 lakh</p>
+                  							</div>
+                   						</li>
+                   					</ul>
+                   				</div>
+                   			</div>
+                   		</div>
+                   		<div class="col-lg-6">
+                   			<div class="column2">
+                   				<div class="content">
+                   					<p class="ser-2-heading">Boost your business with Open</p>
+                   					<div class="border-line"></div>
+                   					<p class="ser-2-description">Get your hands on a term loan that’s crafted for your business</p>
+                   					<div class="button">
+                   						<button>Get an Open Account</button>
+                   					</div>
+                   				</div>
+                   			</div>
+                   		</div>
+                   </div>
+                </div>
+            </div>
+            <!-- End Service Area -->
+		</main>
+        <!-- End Page Wrapper -->
+    </div>
+
+
+    <script src="assets/js/vendor/modernizr.min.js"></script>
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/counterup.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/tilt.js"></script>
+    <script src="assets/js/anime.js"></script>
+    <script src="assets/js/tweenmax.js"></script>
+    <script src="assets/js/slipting.js"></script>
+    <script src="assets/js/scrollmagic.js"></script>
+    <script src="assets/js/addindicators.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/youtube.js"></script>
+    <script src="assets/js/countdown.js"></script>
+    <script src="assets/js/scrollup.js"></script>
+    <script src="assets/js/stickysidebar.js"></script>
+    <script src="assets/js/js.cookie.js"></script>
+    <script src="assets/js/jquery.style.switcher.js"></script>
+    <script src="assets/js/plugins/plugins.min.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+    
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script>
+(function($) {
+
+    $("#pricipal-slide").slider({
+        range: "min",
+        min: 100000,
+        max: 300000,
+        value: 150000,
+        step: 1000,
+        slide: function(event, ui) {
+            $("#pricipal").text(ui.value);
+            loancalculate();
+        }
+    });
+    $("#pricipal").text($("#pricipal-slide").slider("value"));
+
+    $("#totalyear-slide").slider({
+        range: "min",
+        min: 6,
+        max: 60,
+        step: 6,
+        value: 20,
+        slide: function(event, ui) {
+            $("#totalyear").text(ui.value);
+            loancalculate();
+        }
+    });
+    $("#totalyear").text($("#totalyear-slide").slider("value"));
+
+    $("#intrest-slide").slider({
+        range: "min",
+        min: 1000,
+        max: 100000,
+        step: 500,
+        value: 3000,
+        slide: function(event, ui) {
+            $("#intrest").text(ui.value);
+            loancalculate();
+        }
+    });
+    $("#intrest").text($("#intrest-slide").slider("value"));
+
+    loancalculate();
+})(jQuery);
+
+function loancalculate()
+{
+    var loanAmount =$("#pricipal").text();
+    var numberOfMonths =$("#totalyear").text();
+    var rateOfInterest=$("#intrest").text();
+	var monthlyInterestRatio = (rateOfInterest);
+
+    var top = Math.pow((1-monthlyInterestRatio),numberOfMonths);
+    var bottom = top -1;
+    var sp = top / bottom;
+    var invest = ((loanAmount) * sp);
+    var full = numberOfMonths * invest;
+    var interest = full - loanAmount;
+    var int_pge =  (interest / full) * 100;
+
+    var invest_str = invest.toFixed(2).toString().replace(/,/g, "").replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    var loanAmount_str = loanAmount.toString().replace(/,/g, "").replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    var full_str = full.toFixed(2).toString().replace(/,/g, "").replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    //var int_str = interest.toFixed(2).toString().replace(/,/g, "").replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+	var int_str = (loanAmount / numberOfMonths) + (rateOfInterest / 10);
+	var int_str_1 = int_str.toFixed(2);
+
+
+    $("#invest").html("<span>₹ </span>" + invest_str);
+    $("#tbl_invest").html("<span>₹ </span>" + int_str_1);
+    $("#tbl_la").html(full_str);
+}
+</script>
+</body>
+</html>
